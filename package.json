@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "theodoria.software",
+  "description": "Theodoria, my personal website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ted Lorts <tplorts@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.158",
     "gatsby-plugin-react-helmet": "^2.0.3",
@@ -13,9 +13,7 @@
     "react-icons": "^2.2.7",
     "typography-theme-moraga": "^0.15.10"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
