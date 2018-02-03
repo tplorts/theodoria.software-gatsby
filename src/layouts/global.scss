@@ -1,0 +1,36 @@
+$backgroundColor: rgb(235, 245, 255);
+$linkColor: rgb(0, 64, 128);
+
+
+body {
+  background-color: $backgroundColor;
+}
+
+section {
+  margin: 1rem;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: $linkColor;
+  transition: color 0.2s;
+  &:hover {
+    color: lighten($linkColor, 20%);
+  }
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  > li {
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 2px solid darken(desaturate($backgroundColor, 50%), 10%);
+  }
+}
